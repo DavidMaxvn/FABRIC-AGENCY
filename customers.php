@@ -59,8 +59,8 @@ foreach ($customers as &$customer) {
             background: #f4f4f9;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            padding: 20px;
+            /* align-items: center;
+            padding: 20px; */
         }
 
         /* Tạo container cho trang */

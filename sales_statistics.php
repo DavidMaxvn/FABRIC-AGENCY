@@ -27,8 +27,8 @@ try {
             background: #f0f2f5;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            padding: 20px;
+            /* align-items: center;
+            padding: 20px; */
         }
         h1 {
             color: #333;

@@ -65,8 +65,8 @@ $customers = $conn->query("SELECT customer_id, first_name, last_name, outstandin
             background: #f4f4f9;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            padding: 20px;
+            /* align-items: center;
+            padding: 20px; */
         }
         .container {
             max-width: 800px;

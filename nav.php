@@ -26,7 +26,6 @@ if (!isset($_SESSION['user_id'])) {
             <!-- Menu chính --> 
             <ul class="nav navbar-nav">
                 <li class="active"><a href="index.php">Home</a></li>
-                
                 <li><a href="customers.php">Quản lý Khách hàng</a></li>
                 <li><a href="orders.php">Quản lý Đơn hàng</a></li>
                 <li><a href="customer_payments.php">Thanh toán Khách hàng</a></li>

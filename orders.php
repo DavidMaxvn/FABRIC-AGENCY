@@ -41,8 +41,8 @@ $new_order_dir = $order_dir === 'asc' ? 'desc' : 'asc';
             background: #f4f4f9;
             display: flex;
             flex-direction: column;
-            align-items: center;
-            padding: 20px;
+            /* align-items: center;
+            padding: 20px; */
         }
 
         .container {
