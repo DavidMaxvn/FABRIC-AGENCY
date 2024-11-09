@@ -19,7 +19,7 @@ if (!isset($_SESSION['user_id'])) {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="index.php" class="navbar-brand">GROUP.COM</a>
+            <a href="index.php" class="navbar-brand">GROUP5</a>
         </div>
 
         <div class="navbar-collapse collapse" id="mobile_menu">
@@ -47,13 +47,14 @@ if (!isset($_SESSION['user_id'])) {
 
             <!-- Menu người dùng -->
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><span class="glyphicon glyphicon-user"></span> <?php echo htmlspecialchars($_SESSION['username']); ?></a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-log-out"></span> Logout <span class="caret"></span></a>
+                    <a  class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> <?php echo htmlspecialchars($_SESSION['username']); ?> <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="profile.php">Profile</a></li>
-                        <li><a href="logout.php">Logout</a></li>
                     </ul>
+                </li>
+                <li>
+                    <a href="logout.php"><span class="glyphicon glyphicon-log-out"></span> Logout</a>
                 </li>
             </ul>
         </div>

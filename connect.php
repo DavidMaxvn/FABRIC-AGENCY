@@ -1,5 +1,5 @@
 <?php
-$host = 'localhost'; // Thay đổi nếu cần
+$host = 'localhost:3307'; // Thay đổi nếu cần
 $db = 'fabricagency';
 $user = 'root'; // Thay đổi nếu cần
 $password = '';

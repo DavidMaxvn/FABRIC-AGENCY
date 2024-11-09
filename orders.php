@@ -53,7 +53,6 @@ $new_order_dir = $order_dir === 'asc' ? 'desc' : 'asc';
             border-radius: 8px;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         }
-
         h1 {
             color: #333;
             text-align: center;
@@ -124,6 +123,7 @@ $new_order_dir = $order_dir === 'asc' ? 'desc' : 'asc';
         }
 
         .action-buttons a {
+            display: block;
             padding: 6px 12px;
             margin: 2px;
             border-radius: 5px;

@@ -153,6 +153,22 @@ $products = $stmt->fetchAll();
         .btn-danger:hover {
             background-color: #c82333;
         }
+
+        .btn-add {
+            margin: 20px 100px;
+            padding: 8px 15px;
+            background-color: blue;
+            color: black;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            float: right; /* Đặt nút ở phía bên phải */
+        }
+        .btn-add:hover {
+            background-color: silver;
+        }
     </style>
 
     <script type="text/javascript">
@@ -169,6 +185,7 @@ $products = $stmt->fetchAll();
 
 <!-- Hiển thị danh sách sản phẩm -->
 <h2>Danh sách sản phẩm</h2>
+<a href="add_fabric_types.php" class="btn-add">Thêm sản phẩm</a>
 <table>
     <thead>
         <tr>
@@ -202,8 +219,7 @@ $products = $stmt->fetchAll();
             </td>
             <td>
                 <a href="edit_product.php?edit=<?php echo $product['fabric_type_id']; ?>" class="btn">Sửa</a> |
-                <a href="javascript:void(0);" onclick="confirmDelete('product_manager.php?delete=<?php echo $product['fabric_type_id']; ?>')" class="btn btn-danger">Xóa</a> |
-                <a href="add_fabric_types.php" class="btn">Thêm sản phẩm</a>
+                <a href="javascript:void(0);" onclick="confirmDelete('product_manager.php?delete=<?php echo $product['fabric_type_id']; ?>')" class="btn btn-danger">Xóa</a>
             </td>
         </tr>
         <?php endforeach; ?>
